@@ -9,48 +9,52 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="423dp"
+        android:layout_width="382dp"
         android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
         android:text="Email" />
+
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:minHeight="48dp"
         android:text="Enter Email" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
-        android:text="Enter Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:text="Enter Password" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Enter Password"/>
+        android:minHeight="48dp"
+        android:text="Enter Password" />
     <Button
         android:id="@+id/Submit_button"
         android:layout_width="match_parent"
